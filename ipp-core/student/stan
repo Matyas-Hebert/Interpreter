@@ -1,0 +1,6 @@
+echo "PHPCS:"
+php8.4 ../vendor/bin/phpcs
+echo "PHPSTAN - level: 6"
+cd ..
+php8.4 vendor/bin/phpstan analyze --level=6
+cd student

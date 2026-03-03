@@ -1,0 +1,5 @@
+#!/bin/bash
+
+git pull
+clear
+php8.4 ../interpret.php --source="$1"
